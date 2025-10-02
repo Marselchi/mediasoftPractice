@@ -41,6 +41,7 @@ public class BankAccount {
     public String toString() {
         return "Банковский аккаунт " +
                 "Владелец:" + owner +
+                ", Номер счета:" + number +
                 ", Баланс:" + balance +
                 ", Дата Открытия:" + openDate +
                 ", Заблокирован:" + isBlocked;
